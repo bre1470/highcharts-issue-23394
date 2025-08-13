@@ -2,7 +2,7 @@ import Highcharts from 'highcharts/esm/highcharts.js';
 import HighchartsReact from 'highcharts-react-official';
 import 'highcharts/esm/modules/accessibility.js';
 
-'use client';
+'use client'; // <-- Important to force chart rendering in web browser
 
 export function Chart() {
     const baseConfig: Highcharts.Options = {
