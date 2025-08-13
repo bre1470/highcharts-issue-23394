@@ -1,10 +1,12 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/test";
 import { Chart } from "../chart/chart";
+
+'use client'; 
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Highcharts Test" },
+    { name: "description", content: "Loading Highcharts" },
   ];
 }
 
